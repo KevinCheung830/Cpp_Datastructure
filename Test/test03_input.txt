@@ -1,0 +1,108 @@
+5
+2
+1 2
+3
+1 -1 2
+7
+1 2 3 4 5 6 7
+6
+1 2 3 4 -1 6
+10
+1 2 3 -1 5 -1 -1 -1 -1 10
+
+================================================================================
+
+Input:
+The first line of the input contains an integer T denoting the number of test cases.
+Each test case has two lines:
+	The first line has an integer N, which is the length of the input in next line.
+	The second line has N integers separated with a space, where -1 is used to indicate an absence of node and the others are the keys for the binary tree.
+
+Output:
+Case 1
+Before flipping:
+(1)
+     (2)
+After flipping (recursive):
+     (2)
+(1)
+After flipping (non-recursive):
+     (2)
+(1)
+
+Case 2
+Before flipping:
+     (2)
+(1)
+After flipping (recursive):
+(1)
+     (2)
+After flipping (non-recursive):
+(1)
+     (2)
+
+Case 3
+Before flipping:
+           (7)
+     (3)
+           (6)
+(1)
+           (5)
+     (2)
+           (4)
+After flipping (recursive):
+           (4)
+     (2)
+           (5)
+(1)
+           (6)
+     (3)
+           (7)
+After flipping (non-recursive):
+           (4)
+     (2)
+           (5)
+(1)
+           (6)
+     (3)
+           (7)
+
+Case 4
+Before flipping:
+     (3)
+           (6)
+(1)
+     (2)
+           (4)
+After flipping (recursive):
+           (4)
+     (2)
+(1)
+           (6)
+     (3)
+After flipping (non-recursive):
+           (4)
+     (2)
+(1)
+           (6)
+     (3)
+
+Case 5
+Before flipping:
+     (3)
+(1)
+           (5)
+                 (10)
+     (2)
+After flipping (recursive):
+     (2)
+                 (10)
+           (5)
+(1)
+     (3)
+After flipping (non-recursive):
+     (2)
+                 (10)
+           (5)
+(1)
+     (3)

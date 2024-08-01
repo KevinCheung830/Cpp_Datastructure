@@ -1,0 +1,37 @@
+5
+5
+1 2 3 4 5 
+6
+1 2 3 4 5 6
+2
+1 2
+1
+1
+0
+
+
+================================================================================
+Below is the description of the input format and expected output.
+================================================================================
+
+Input:
+The first line of input contains an integer T denoting the number of test cases.
+The first line of each test case contains an integer N, which is the length of the list.
+The second line of each test case contains N integers separated with a space which are the data for the list.
+
+Output:
+Case 1
+Input:          [1]-> [2]-> [3]-> [4]-> [5]-> NULL
+Reversed:       [1]-> [5]-> [2]-> [4]-> [3]-> NULL
+Case 2
+Input:          [1]-> [2]-> [3]-> [4]-> [5]-> [6]-> NULL
+Reversed:       [1]-> [6]-> [2]-> [5]-> [3]-> [4]-> NULL
+Case 3
+Input:          [1]-> [2]-> NULL
+Reversed:       [1]-> [2]-> NULL
+Case 4
+Input:          [1]-> NULL
+Reversed:       [1]-> NULL
+Case 5
+Input:          NULL
+Reversed:       NULL
