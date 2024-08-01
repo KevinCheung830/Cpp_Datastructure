@@ -1,0 +1,36 @@
+5
+aaaa
+abababa
+abccba
+CPPisFun
+theQUICKbrownFOXjumpsOVERtheLAZYdog
+
+================================================================================
+Below is the description of the input format and expected output.
+================================================================================
+
+Input:
+The first line of input contains an integer T denoting the number of test cases. 
+Each following line is a test case that contains a string of ASCII characters.
+
+Output:
+Case 1
+The substring (3,1) is a
+
+Case 2
+The substring (5,2) is ba
+
+Case 3
+The substring (3,3) is cba
+
+Case 4
+The substring (2,6) is PisFun
+
+Case 5
+The substring (0,21) is theQUICKbrownFOXjumps
+
+
+
+
+
+
